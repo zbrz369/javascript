@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+/* betűtípus beállítása */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Quicksand&display=swap" rel="stylesheet');
+
+/* setup basic beállítások*/
+*{
+    margin: 3,7vw;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: rgb(249, 233, 176)
+}
+
+html,body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden; 
+    cursor: crosshair;
+
+}
+
+body {
+    background-image: url(../img/terkep.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+ }
+
+  h1,div {
+    margin: 2%
+
+    
+}
+ 
+
+h1 {
+
+    color:rgb(249, 233, 176);
+    font-size: 2vw;
+    line-height: 0,5vh;
+    
+}
+
+
+
+div a{
+    margin: 10%;
+    height: 2vh;
+    color: rgb(255, 238, 177);
+    text-decoration: none;
+   
+    
+    
+}

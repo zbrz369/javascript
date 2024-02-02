@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+/* betűtípus beállítása */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Quicksand&display=swap" rel="stylesheet');
+
+/* setup basic beállítások*/
+*{
+    margin: 3,7vw;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: rgb(120, 110, 73)
+}
+
+
+
+html,body {
+    height: 100vh;
+    width: 100vw; 
+    cursor: crosshair;
+
+}
+
+
+
+  h1,div {
+    margin: 2%
+
+    
+}
+
+ 
+
+h1 {
+
+    color:rgb(146, 135, 93);
+    font-size: 2vw;
+    line-height: 0,5vh;
+    
+}
+
+
+
+div a{
+    margin: 10%;
+    height: 2vh;
+    color: rgb(132, 123, 93);
+    text-decoration: none;
+   
+    
+    
+  }
+
+
+  .element:hover {
+    opacity: 0.2;
+}
+#text-box {
+    display: none;
+}
+
+
+  
+  #video-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  
+  #video-container video {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
